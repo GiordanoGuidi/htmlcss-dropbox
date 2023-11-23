@@ -163,3 +163,20 @@ header{
 .link-client{
     margin: 50px 0px 100px 0px;
 }
+
+.row.border{
+    height: 600px;
+    margin-top: 200px;
+}
+
+.col-partners{
+    width: calc(100% / 3);
+}
+
+.col-50-partners{
+    width: calc(100% / 4);
+    height: 50%;
+}
+
+/*QUINTA SEZIONE*/
+
