@@ -1,0 +1,36 @@
+/*CSS RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*UTILS*/
+.border{
+    border: 2px dashed white;
+}
+
+/*HEADER*/
+
+.navbar-container{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: rgb(25, 25, 192);
+}
+
+.navbar-col-left{
+    width: 30%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.navbar-col-right{
+    height: 100%;
+    width: 30%;
+    background-color: brown;
+}
