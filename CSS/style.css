@@ -16,7 +16,7 @@ body{
 }
 
 .container-big{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -29,8 +29,12 @@ body{
     background-color: #B4D0E7;
 }
 
-.col-{
-    height: 100px;
+.bg-green{
+    background-color: chartreuse;
+}
+
+.bg-brown{
+    background-color: brown;
 }
 
 .wrap{
@@ -63,35 +67,29 @@ header{
 }
 
 /*MAIN*/
-/*PRIMA ZEZIONE*/
+/*PRIMA SEZIONE*/
 .bg-lightblue{
     background-color: #B4D0E7;
 }
-.row{
+.row-proposal{
     width: 100%;
-    height: 200px;
+    height: 100px;
 }
 
 .flex{
-    height: 100px;
     display: flex;
 }
 
-.card-w60{
+.col60-proposal{
     width: 60%;
     height: 100%;
-    background-color: crimson;
 }
 
-.card-w40{
+.col40-proposal{
     width: 40%;
     height: 100%;
-    background-color: darkcyan;
 }
 
-.wrap{
-    flex-wrap: wrap;
-}
 /*SECONDA SEZIONE*/
 .billing{
     display: inline-block;
@@ -107,35 +105,30 @@ header{
 
 .row.packages{
     width: 100%;
+    margin: 0 -30px;
+    /* height: 300px; */
 }
 
 .col-packages{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 40px);
+    margin: 30px;
     height: 300px;
+    background-color: blue;
+}
+
+.card{
+    max-height: 100%;
+    background-color: pink;
+    border: 2px solid white;
+}
+
+.row-full{
+    width: 100%;    
+    margin: 0 -30px;
+    margin-top: 30px;
 }
 
 .col-packages-big{
-    width: 100%;
-    height: 50px;
-}
-
-.single{
-    background-color: aqua;
-}
-
-.team{
-    background-color: fuchsia;
-}
-
-.agency{
-    background-color: royalblue;
-}
-
-.full-row{
-    width: 100%;    
-}
-
-.big-col-packages{
     background-color: chartreuse;
     height: 50px;
 }
