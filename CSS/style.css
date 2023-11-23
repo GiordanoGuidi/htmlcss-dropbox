@@ -41,6 +41,10 @@ body{
     flex-wrap: wrap;
 }
 
+.row{
+    width: 100%;
+}
+
 /*HEADER*/
 
 .navbar-container{
@@ -71,7 +75,7 @@ header{
 .bg-lightblue{
     background-color: #B4D0E7;
 }
-.row-proposal{
+.row.proposal{
     width: 100%;
     height: 100px;
 }
@@ -80,12 +84,12 @@ header{
     display: flex;
 }
 
-.col60-proposal{
+.col-60{
     width: 60%;
     height: 100%;
 }
 
-.col40-proposal{
+.col-40{
     width: 40%;
     height: 100%;
 }
@@ -105,12 +109,10 @@ header{
 
 .row.packages{
     width: 100%;
-    margin: 0 -30px;
-    /* height: 300px; */
 }
 
 .col-packages{
-    width: calc(100% / 3 - 40px);
+    width: calc(100% / 3 - 60px);
     margin: 30px;
     height: 300px;
     background-color: blue;
@@ -124,7 +126,6 @@ header{
 
 .row-full{
     width: 100%;    
-    margin: 0 -30px;
     margin-top: 30px;
 }
 
@@ -133,5 +134,32 @@ header{
     height: 50px;
 }
 
+/*TERZA SEZIONE*/
 
+.row.partner{
+    height: 200px;
+    margin: 50px 0px 100px 0px;
+}
 
+/*QUARTA SEZIONE*/
+.row.business{
+    margin: 50px 0px;
+    padding-bottom: 100px;
+    height: auto;
+    display: flex;
+}
+
+.col-business{
+    width: calc(100% / 3);
+    height: 300px;
+}
+
+.card-image,
+.card-text{
+    height: 50%;
+}
+/*QUINTA SEZIONE*/
+
+.link-client{
+    margin: 50px 0px 100px 0px;
+}
