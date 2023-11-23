@@ -8,7 +8,17 @@
 
 /*UTILS*/
 .border{
-    border: 2px dashed white;
+    border: 3px dashed black;
+}
+
+.container-big{
+    width: 1200px;
+    margin: 0 auto;
+    border: 3px dashed black;
+}
+
+.bg-lightblue{
+    background-color: #B4D0E7;
 }
 
 /*HEADER*/
@@ -33,4 +43,32 @@ header{
     height: 100%;
     width: 30%;
     background-color: brown;
+}
+
+/*MAIN*/
+/*PRIMA ZEZIONE*/
+.bg-lightblue{
+    background-color: #B4D0E7;
+}
+.row{
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.col-w60{
+    width: 60%;
+    height: 100%;
+    background-color: crimson;
+}
+
+.col-w40{
+    width: 40%;
+    height: 100%;
+    background-color: darkcyan;
 }
