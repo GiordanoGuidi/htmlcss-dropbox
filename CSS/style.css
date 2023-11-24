@@ -205,5 +205,25 @@ header{
     border-bottom: 1px solid black;
 }
 
+/*FOOTER*/
+footer{
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.row-footer{
+    height: 600px;
+    display: flex;
+    padding: 100px 0px;
+}
+
+.col-footer{
+    width: calc(100% / 5);
+}
+
+.chose-language{
+    line-height: 7rem;
+    color: white;
+}
 
 
