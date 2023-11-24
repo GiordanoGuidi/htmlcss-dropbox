@@ -12,7 +12,7 @@ body{
 }
 
 .border{
-    border: 3px dashed black;
+    border: 3px dashed white;
 }
 
 .container-big{
@@ -20,9 +20,17 @@ body{
     margin: 0 auto;
 }
 
+section{
+    padding: 100px 0pc;
+}
+
 .container-small{
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.bg-black{
+    background-color: black;
 }
 
 .bg-lightblue{
@@ -144,7 +152,7 @@ header{
 /*QUARTA SEZIONE*/
 .row.business{
     margin: 50px 0px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
     height: auto;
     display: flex;
 }
@@ -178,5 +186,24 @@ header{
     height: 50%;
 }
 
-/*QUINTA SEZIONE*/
+/*SESTA SEZIONE*/
+
+.free-trial{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.free-trial-container{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+.frequent-questions > *{
+    line-height: 6rem;
+    border-bottom: 1px solid black;
+}
+
+
 
