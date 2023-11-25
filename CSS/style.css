@@ -21,6 +21,7 @@ body{
 
 .mb-30{
     margin-bottom: 30px;
+    order: 0;
 }
 
 .margin-t40{
@@ -71,6 +72,10 @@ body{
     display: flex;
 } 
 
+.relative{
+    position: relative;
+}
+
 .margin-t150{
     margin-top: 150px;
 }
@@ -115,7 +120,6 @@ li > *{
     color: white;
     display: inline-block;
     padding: 10px 15px;
-    margin: 20px 0px;
 }
 
 .button-small{
@@ -217,14 +221,19 @@ hr{
 i{
     margin-right: 5px;
 }
+/*COLONNA 100%*/
 
 .col-packages-full{
     flex-basis: 100%;
     margin: 0px 30px;
-    background-color: chartreuse;
     height: auto;
 }
 
+.button.our-team{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
 /*TERZA SEZIONE*/
 
 .row.partner{
