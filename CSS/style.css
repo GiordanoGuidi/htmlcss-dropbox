@@ -346,22 +346,19 @@ img.designit{
 .card-designit{
     padding: 50px;
 }
-
-
 /*SESTA SEZIONE*/
 
 .free-trial{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 100px 0px;
 }
 
-.free-trial-container{
-    display: flex;
-    flex-basis: 100%;
-    justify-content: space-between;
+.free-trial.butto{
+    height: 20px;
 }
 
+/*SETTIMA SEZIONE*/
 .frequent-questions > *{
     line-height: 6rem;
     border-bottom: 1px solid black;
