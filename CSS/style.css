@@ -181,19 +181,8 @@ h1{
     height: auto;
 }
 
-.col-full{
-    flex-basis: 100%;
-    margin: 0px 30px;
-
-}
-
-.col-packages-big{
-    background-color: chartreuse;
-    height: 50px;
-}
-
-.card{
-    max-height: 100%;
+.col-packages .card{
+    min-height: 777px;
 }
 
 .card-title{
@@ -227,6 +216,13 @@ hr{
 
 i{
     margin-right: 5px;
+}
+
+.col-packages-full{
+    flex-basis: 100%;
+    margin: 0px 30px;
+    background-color: chartreuse;
+    height: auto;
 }
 
 /*TERZA SEZIONE*/
