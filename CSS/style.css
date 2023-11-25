@@ -41,16 +41,52 @@
     background-color: #B4D0E7;
 }
 
-.bg-green{
-    background-color: chartreuse;
+.bg-blue{
+    background-color: #0093CE;
 }
 
-.bg-brown{
-    background-color: brown;
+.bg-green{
+    background-color: #A2D39B;
 }
 
 .bold{
     font-weight: 800;
+}
+
+.bg-brown{
+    background-color: #61082b;
+}
+
+.bg-red{
+    background-color: #FF1C1D;
+}
+
+.bg-lightgray{
+    background-color: #F5F5F5;
+}
+
+.bg-dark-red{
+    background-color: #D6001F;
+}
+
+.bg-dark-red{
+    background-color: #D6001F;
+}
+
+.bg-dark-red{
+    background-color: #D6001F;
+}
+
+.bg-dark-red{
+    background-color: #D6001F;
+}
+
+.bg-dark-blue{
+    background-color: #0E2481;
+}
+
+.bg-yellow{
+    background-color: #ffd830;
 }
 
 /*GENERICS*/
@@ -277,9 +313,13 @@ i{
     margin: 50px 0px 100px 0px;
 }
 
-/* .row.border{
+.row-border{
     height: 600px;
-} */
+}
+
+.row-partners{
+    height: 600px; /*cancellare*/
+}
 
 .col-partners{
     width: calc(100% / 3);
@@ -289,6 +329,24 @@ i{
     width: calc(100% / 2);
     height: 50%;
 }
+
+.col-50-partners > *{
+    color: white;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img.designit{
+    width: 300px;
+}
+
+.card-designit{
+    padding: 50px;
+}
+
 
 /*SESTA SEZIONE*/
 
