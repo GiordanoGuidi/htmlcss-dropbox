@@ -18,6 +18,7 @@
 
 .mb-15{
     margin-bottom: 15px;
+    order: -1;
 }
 
 .margin-t150{
@@ -267,13 +268,9 @@ i{
 
 .col-business{
     width: calc(100% / 3);
-    height: 300px;
+    height: auto;
 }
 
-.card-image,
-.card-text{
-    height: 50%;
-}
 /*QUINTA SEZIONE*/
 
 .link-client{
