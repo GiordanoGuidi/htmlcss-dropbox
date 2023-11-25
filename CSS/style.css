@@ -6,22 +6,22 @@
 }
 
 /*UTILS*/
-body{
-    font-family: 'Open Sans', sans-serif;
-}
 
 .border{
     border: 3px dashed white;
 }
 
-.container-big{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .mb-30{
     margin-bottom: 30px;
     order: 0;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.margin-t150{
+    margin-top: 150px;
 }
 
 .margin-t40{
@@ -30,20 +30,6 @@ body{
 
 .border-gray{
     border: 1px solid rgb(207, 203, 203);
-}
-
-.container-small{
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.wrap{
-    flex-wrap: wrap;
-}
-
-.row{
-    width: 100%;
-    flex-direction: row;
 }
 
 .bg-black{
@@ -68,6 +54,15 @@ body{
 
 /*GENERICS*/
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-big{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .flex{
     display: flex;
 } 
@@ -76,8 +71,18 @@ body{
     position: relative;
 }
 
-.margin-t150{
-    margin-top: 150px;
+.container-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.row{
+    width: 100%;
+    flex-direction: row;
 }
 
 h2{
@@ -114,10 +119,15 @@ li > *{
     color: gray;
 }
 
-.button{
+.colored{
     background-color: blue;
-    text-decoration: none;
     color: white;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
     display: inline-block;
     padding: 10px 15px;
 }
@@ -139,7 +149,7 @@ h1{
 
 .row-proposal{
     position: relative;
-    top:70px;
+    top:75px;
     width: 100%;
 }
 
@@ -176,12 +186,11 @@ h1{
 .row.packages{
     width: 100%;
     margin: 0 -30px;
-    align-items: stretch;
 }
 
 .col-packages{
-    flex-basis: calc(100% / 3 - 60px);
-    margin: 30px;
+    flex-basis: calc(100% / 3);
+    padding: 30px;
     height: auto;
 }
 
@@ -225,7 +234,7 @@ i{
 
 .col-packages-full{
     flex-basis: 100%;
-    margin: 0px 30px;
+    padding: 0px 30px;
     height: auto;
 }
 
@@ -237,8 +246,16 @@ i{
 /*TERZA SEZIONE*/
 
 .row.partner{
-    height: 200px;
-    margin: 50px 0px 100px 0px;
+    margin: 50px -30px 100px -30px;
+}
+
+.col-70.partner,
+.col-30.partner{
+    padding: 30px;
+}
+
+.card-partner{
+   padding: 50px 50px 0px 0px;
 }
 
 /*QUARTA SEZIONE*/
@@ -263,9 +280,9 @@ i{
     margin: 50px 0px 100px 0px;
 }
 
-.row.border{
+/* .row.border{
     height: 600px;
-}
+} */
 
 .col-partners{
     width: calc(100% / 3);
