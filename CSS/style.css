@@ -104,7 +104,7 @@ body{
 }
 
 .container-big{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -384,11 +384,22 @@ footer{
 
 .col-footer{
     width: calc(100% / 5);
+    line-height: 2rem;
 }
 
 .chose-language{
     line-height: 7rem;
     color: white;
 }
+
+.fa-caret-up{
+    margin-left: 5px;
+}
+
+.col-language{
+    display: inline-block;
+    border-top: 1px solid white;
+}
+
 
 
