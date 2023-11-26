@@ -348,14 +348,13 @@ img.designit{
 }
 /*SESTA SEZIONE*/
 
-.free-trial{
+.free-trial-row{
     display: flex;
     justify-content: space-between;
-    padding: 100px 0px;
-}
-
-.free-trial.butto{
-    height: 20px;
+    height: 300px;
+    align-items: baseline;
+    align-items: center;
+    padding: 0px 30px;
 }
 
 /*SETTIMA SEZIONE*/
