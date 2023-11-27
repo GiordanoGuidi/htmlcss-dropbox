@@ -149,6 +149,10 @@ h2{
 
 h3{
     font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.bold{
     font-weight: 600;
 }
 /* HEADER*/
@@ -162,6 +166,7 @@ h3{
     top: 0;
     left: 0;
     padding: 0px 20px;
+    z-index: 1;
 }
 
 .main-header ul{
@@ -173,6 +178,10 @@ h3{
 
 li > *{
     text-decoration: none;
+}
+
+.nav-list li{
+    color: gray;
 }
 
 .button{
@@ -257,7 +266,7 @@ h1{
 }
 
 .col-packages .card{
-    min-height: 843px;
+    min-height: 889px;
 }
 
 .card-title{
@@ -335,10 +344,6 @@ i{
 
 .link-our-client{
     margin: 50px 0px 100px 0px;
-}
-
-.row-partners{
-    height: 600px;
 }
 
 .col-partners{
