@@ -37,6 +37,10 @@
 padding-top: 100px;
 }
 
+.margin-t40{
+    margin-top: 40px;
+}
+
 .border{
     border: 3px dashed white;
 }
@@ -271,9 +275,12 @@ h1{
     margin: 0px 0px 40px 0px;
 }
 
-.card-text ul > *{
+.icons-list li{
     margin-bottom: 1.5rem;
+    display: flex;
     font-size: 0.8rem;
+    align-items: baseline;
+    gap: 5px;
 }
 
 .hr-short{
