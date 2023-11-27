@@ -155,6 +155,14 @@ h3{
 .bold{
     font-weight: 600;
 }
+
+ul{
+    list-style: none;
+}
+
+.button:hover{
+    box-shadow: rgba(0, 0, 0, 0.3);
+}
 /* HEADER*/
 .main-header{
     background-color: white;
@@ -180,7 +188,7 @@ li > *{
     text-decoration: none;
 }
 
-.nav-list li{
+.nav-list a{
     color: gray;
 }
 
@@ -196,7 +204,8 @@ li > *{
     border: 1px solid black;
 }
 
-.button-small{
+#button-small{
+    color: white;
     padding: 5px 10px;
     border: none;
 }
@@ -387,9 +396,24 @@ i{
 }
 
 /*SEZIONE DOMANDE FREQUENTI*/
-.frequent-questions > * {
-    line-height: 6rem;
+.answer-and-questions{
+    border-bottom: 1px solid black;
+    justify-content: space-between;
 }
+
+.answer-hidden{
+    margin-top: 40px;
+    display: none;
+}
+
+.questions{
+    padding: 40px 0px;
+}
+
+.questions:hover .answer-hidden{
+    display: block;
+}
+
 
 /*FOOTER*/
 footer{
@@ -408,11 +432,6 @@ footer{
     line-height: 2rem;
 }
 
-.chose-language{
-    line-height: 7rem;
-    color: white;
-}
-
 .fa-caret-up{
     margin-left: 5px;
 }
@@ -420,15 +439,9 @@ footer{
 .col-language{
     display: inline-block;
     border-top: 1px solid white;
-}
-
-ul{
-    list-style: none;
+    padding: 30px 0px;
 }
 
 .col-footer li > *{
     color: white;
 }
-
-
-
