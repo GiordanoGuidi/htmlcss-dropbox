@@ -403,7 +403,6 @@ i{
 /*SEZIONE DOMANDE FREQUENTI*/
 .answer-and-questions{
     border-bottom: 1px solid black;
-    justify-content: space-between;
 }
 
 .answer-hidden{
@@ -413,6 +412,7 @@ i{
 
 .questions{
     padding: 40px 0px;
+    justify-content: space-between;
 }
 
 .questions:hover .answer-hidden{
