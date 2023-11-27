@@ -7,10 +7,6 @@
 
 /*UTILS*/
 
-.border{
-    border: 3px dashed white;
-}
-
 .mb-30{
     margin-bottom: 30px;
     order: 0;
@@ -41,10 +37,14 @@
 padding-top: 100px;
 }
 
+.border{
+    border: 3px dashed white;
+}
+
 .border-gray{
     border: 1px solid rgb(207, 203, 203);
 }
-
+/* UTILS_COLORS*/
 .c-black{
     color: black;
 }
@@ -81,18 +81,6 @@ padding-top: 100px;
     background-color: #D6001F;
 }
 
-.bg-dark-red{
-    background-color: #D6001F;
-}
-
-.bg-dark-red{
-    background-color: #D6001F;
-}
-
-.bg-dark-red{
-    background-color: #D6001F;
-}
-
 .bg-dark-blue{
     background-color: #0E2481;
 }
@@ -112,7 +100,6 @@ padding-top: 100px;
 .c-bordeaux{
     color: #61092B;
 }
-
 /*GENERICS*/
 
 body{
@@ -148,6 +135,11 @@ body{
 
 h2{
     font-size: 3rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1.5rem;
     font-weight: 600;
 }
 /* HEADER*/
@@ -204,7 +196,7 @@ li > *{
 
 h1{
     font-size: 5rem;
-    font-weight: bolder;
+    font-weight: 800;
     padding-top: 50px;
 }
 
