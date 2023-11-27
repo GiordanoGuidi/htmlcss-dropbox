@@ -25,6 +25,10 @@
     margin-top: 150px;
 }
 
+.margin-l6{
+    margin-left: 6px;
+}
+
 .padding-100{
     padding: 100px 0px;
 }
@@ -97,8 +101,16 @@ padding-top: 100px;
     background-color: #ffd830;
 }
 
+.bg-white{
+    background-color: white;
+}
+
 .bg-btn-blue{
     background-color: #0160FF;
+}
+
+.c-bordeaux{
+    color: #61092B;
 }
 
 /*GENERICS*/
@@ -168,17 +180,16 @@ li > *{
     color: gray;
 }
 
-.colored{
-    background-color: blue;
-    color: white;
-}
-
 .button{
     text-decoration: none;
     color: white;
-    border: 1px solid black;
     display: inline-block;
     padding: 10px 15px;
+}
+
+.btn-primary{
+    color: black;
+    border: 1px solid black;
 }
 
 .button-small{
@@ -218,6 +229,7 @@ h1{
 /*SECONDA SEZIONE*/
 .billing{
     display: inline-block;
+    vertical-align: middle;
 }
 
 .check-box{
@@ -227,6 +239,11 @@ h1{
     border-radius: 50%;
     border: 1px solid black;
     margin-right: 3px;
+    vertical-align: middle;
+}
+
+.check-box.colored{
+    border: 3px solid #0160FF;
 }
 
 .billing{
@@ -366,6 +383,10 @@ img.designit{
 }
 /*SESTA SEZIONE*/
 
+.button.bg-white{
+    color: black;
+}
+
 .free-trial-row{
     display: flex;
     justify-content: space-between;
@@ -409,6 +430,14 @@ footer{
 .col-language{
     display: inline-block;
     border-top: 1px solid white;
+}
+
+ul{
+    list-style: none;
+}
+
+.col-footer li > *{
+    color: white;
 }
 
 
