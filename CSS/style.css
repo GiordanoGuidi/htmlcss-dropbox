@@ -226,7 +226,7 @@ h1{
     flex-basis: 30%;
 }
 
-/*SECONDA SEZIONE*/
+/*SEZIONE DEI PACCHETTI*/
 .billing{
     display: inline-block;
     vertical-align: middle;
@@ -315,7 +315,7 @@ i{
     top: 30px;
     right: 20px;
 }
-/*TERZA SEZIONE*/
+/*SEZIONE DRPBOX PARTENR*/
 
 .row.partner{
     margin: 50px -30px 100px -30px;
@@ -330,7 +330,7 @@ i{
    padding: 50px 50px 0px 0px;
 }
 
-/*QUARTA SEZIONE*/
+/*SEZIONE DROPBOX BUSINESS*/
 .row.business{
     margin: 50px 0px;
     height: auto;
@@ -342,7 +342,7 @@ i{
     height: auto;
 }
 
-/*QUINTA SEZIONE*/
+/*SEZIONE TEAM CHE UTILIZZANO DROPBOX*/
 
 .link-client{
     margin: 50px 0px 100px 0px;
@@ -353,25 +353,25 @@ i{
 }
 
 .row-partners{
-    height: 600px; /*cancellare*/
+    height: 600px;
 }
 
 .col-partners{
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
 }
 
 .col-50-partners{
-    width: calc(100% / 2);
+    width: 50%;
     height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.col-50-partners > *{
-    color: white;
-    width: 200px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.col-50-partners > * {
+    width: 50%;
 }
 
 img.designit{
@@ -381,7 +381,7 @@ img.designit{
 .card-designit{
     padding: 50px;
 }
-/*SESTA SEZIONE*/
+/*SEZIONE PROVA GRATUITA*/
 
 .button.bg-white{
     color: black;
@@ -396,7 +396,7 @@ img.designit{
     padding: 0px 30px;
 }
 
-/*SETTIMA SEZIONE*/
+/*SEZIONE DOMANDE FREQUENTI*/
 .frequent-questions > * {
     line-height: 6rem;
 }
