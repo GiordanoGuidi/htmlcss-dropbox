@@ -133,6 +133,11 @@ body{
     flex-direction: row;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 h2{
     font-size: 3rem;
     font-weight: 500;
@@ -162,14 +167,8 @@ h3{
     gap: 30px;
 }
 
-img{
-    max-width: 100%;
-    display: block;
-}
-
 li > *{
     text-decoration: none;
-    color: gray;
 }
 
 .button{
@@ -254,7 +253,7 @@ h1{
 }
 
 .col-packages .card{
-    min-height: 777px;
+    min-height: 843px;
 }
 
 .card-title{
@@ -266,25 +265,17 @@ h1{
 .card-text{
     padding: 30px 20px 0px 20px;
 }
-
-.card-text h3{
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-}
-
-.card-text.hr{
-    width: 25%;
-}
-
+    
 .p-gray{
     color: gray;
-    margin: 5px 0px 40px 0px;
+    margin: 0px 0px 40px 0px;
 }
 
-.card-text > *{
-    margin-bottom: 20px;
+.card-text ul > *{
+    margin-bottom: 1.5rem;
     font-size: 0.8rem;
 }
+
 
 .card-text hr{
     width: 25%;
@@ -311,6 +302,7 @@ i{
 
 .row.partner{
     margin: 50px -30px 100px -30px;
+    display: flex;
 }
 
 .col-70.partner,
