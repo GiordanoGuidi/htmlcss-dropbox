@@ -152,8 +152,8 @@ h3{
     font-weight: 500;
 }
 
-.bold{
-    font-weight: 600;
+.btn-primary:hover{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 ul{
@@ -161,7 +161,12 @@ ul{
 }
 
 .button:hover{
-    box-shadow: rgba(0, 0, 0, 0.3);
+    filter: brightness(150%);
+}
+
+.a:hover{
+    filter: brightness(150%);
+
 }
 /* HEADER*/
 .main-header{
