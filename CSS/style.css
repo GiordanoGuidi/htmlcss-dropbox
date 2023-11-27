@@ -276,8 +276,7 @@ h1{
     font-size: 0.8rem;
 }
 
-
-.card-text hr{
+.hr-short{
     width: 25%;
     color: #D9D9D9;
 }
@@ -317,23 +316,18 @@ i{
 /*SEZIONE DROPBOX BUSINESS*/
 .row.business{
     margin: 50px 0px;
-    height: auto;
     display: flex;
 }
 
 .col-business{
     width: calc(100% / 3);
-    height: auto;
+    padding-top: 40px;
 }
 
 /*SEZIONE TEAM CHE UTILIZZANO DROPBOX*/
 
-.link-client{
+.link-our-client{
     margin: 50px 0px 100px 0px;
-}
-
-.row-border{
-    height: 600px;
 }
 
 .row-partners{
@@ -354,12 +348,12 @@ i{
     justify-content: center;
 }
 
-.col-50-partners > * {
+.col-50-partners > *{
     width: 50%;
 }
 
-img.designit{
-    width: 300px;
+.designit-big-img{
+    width: 50%;
 }
 
 .card-designit{
