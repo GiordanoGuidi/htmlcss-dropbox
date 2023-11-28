@@ -406,7 +406,7 @@ i{
 }
 
 .answer-hidden{
-    margin-top: 40px;
+    padding: 20px 0px;
     display: none;
 }
 
@@ -415,11 +415,9 @@ i{
     justify-content: space-between;
 }
 
-.questions:hover .answer-hidden{
+.answer-and-questions:hover .answer-hidden{
     display: block;
 }
-
-
 /*FOOTER*/
 footer{
     border-bottom: 1px solid white;
