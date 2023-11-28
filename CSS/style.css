@@ -37,7 +37,7 @@
 padding-top: 100px;
 }
 
-.margin-t40{
+.margin-t40{ 
     margin-top: 40px;
 }
 
@@ -179,6 +179,7 @@ ul{
     top: 0;
     left: 0;
     padding: 0px 20px;
+    box-shadow: 1px 1px black;
     z-index: 1;
 }
 
@@ -372,6 +373,7 @@ i{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 10px solid transparent;
 }
 
 .col-50-partners > *{
@@ -384,6 +386,10 @@ i{
 
 .card-designit{
     padding: 50px;
+}
+
+.col-50-partners:hover{
+    border-color: rgba(255, 255, 255, 0.5);
 }
 /*SEZIONE PROVA GRATUITA*/
 
@@ -448,3 +454,13 @@ footer{
 .col-footer li > *{
     color: white;
 }
+
+.col-footer li:hover{
+    text-decoration: underline white;
+}
+
+.col-language a{
+    text-decoration: none;
+    color: white;
+}
+
