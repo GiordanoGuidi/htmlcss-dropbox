@@ -202,12 +202,8 @@ header{
     gap: 30px;
 }
 
-
-.main-header ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+.navbar-element:hover{
+border-bottom: 2px solid black;
 }
 
 li > *{
